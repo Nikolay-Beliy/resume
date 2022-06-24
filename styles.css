@@ -1,0 +1,105 @@
+
+body{
+    background: rgb(229, 242, 247);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(15, 1, 6);
+    font-size: 18px;
+    
+    
+}
+.name {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 0px 20px;
+    background-color: rgb(250, 196, 175);
+    height: 547px;
+ }
+.avatar {
+    border-radius: 25px;
+border: 2px rgb(117, 110, 110) solid;
+box-shadow: 11px 11px 15px rgb(12, 11, 11);
+height: 547px;
+padding: 0;
+}
+.card {
+    border: 2px solid #000;
+    border-radius: 25px;
+    margin: auto;
+    }
+.bg-yellow {
+    background-color: rgb(247, 252, 221);
+    border-color: rgb(245, 237, 122);
+}
+.bg-green {
+    background-color: rgb(221, 250, 220);
+    border-color: rgb(170, 243, 156);
+}
+.bg-pink {
+    background-color: rgb(248, 229, 228);
+    border-color: rgb(248, 206, 206);
+}
+.bg-blue {
+    background-color: rgb(221, 255, 252);
+    border-color: rgb(216, 216, 255);
+}
+.container{
+    max-width: 700px;
+    margin: auto;
+
+}
+a{
+    color: rgb(23, 5, 39);
+    text-decoration: none;
+}
+a:hover{
+color: chocolate;
+text-decoration: underline;
+}
+.btn{
+    color: rgb(250, 249, 248);
+    background-color: rgb(15, 2, 27);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.btn:hover{
+    color: chocolate; 
+    opacity: 0.7;
+}
+.btn-holder { 
+    text-align: center;
+}
+.form-group label{
+    display: block;
+}
+.form-group input{
+    width: 96%;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+.form-row{
+    display: flex;
+          }
+.form-row .form-group{
+    /* display: inline-block; */
+    width: 50%;
+}
+.textar{
+    text-align: center;
+}
+.textar textarea {
+    border: none;
+    border-bottom: 1px solid black;
+}
+@media (max-width: 830px) {
+    .card {
+        padding: 150px;
+    }
+    .card {
+      width: 150%;
+      margin: auto;
+    }
+    
+}
